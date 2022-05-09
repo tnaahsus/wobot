@@ -1,0 +1,122 @@
+body {
+  background: url("./static/img2.png");
+  background-color: rgba(255, 255, 255, 0.842);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.logoImg {
+  height: 50px;
+  margin: 120px 110px;
+}
+.container {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  background-color: white;
+  border: 1px solid rgb(244, 244, 244);
+  border-radius: 10px;
+}
+.box {
+  width: 80%;
+  margin: auto;
+}
+.heading {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.heading > span {
+  font-size: 30px;
+  font-weight: 635;
+  color: #212121;
+  margin-top: 20px;
+}
+.helpText {
+  margin-top: 10px;
+  color: gray;
+  text-align: center;
+}
+.company {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#companyInput,
+#selectInput {
+  background-color: #ffffff;
+  border: 1px solid rgb(215 215 215 / 43%);
+  border-radius: 8px;
+  margin-top: 4px;
+  padding: 8px;
+}
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+}
+
+#boxInput{
+    display: flex;
+    width: 100%;
+}
+.boxInputValue{
+    background-color: rgba(231, 231, 231, 0.612);
+    width: 190px;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right:  13px;
+    cursor: pointer;
+}
+.boxInputValue:hover{
+    background-color: #3766E8;
+    color:white;
+}
+
+#button{
+    background-color: #3766E8;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+#button:hover{
+    opacity: 0.8;
+}
+.terms{
+    position: absolute;
+    bottom: 70px;
+    font-size: 20px;
+    left: 45%;
+}
+.terms>span{
+    cursor: pointer;
+}
+.selected{
+    background-color: #3766E8;
+    color:white;
+    width: 190px;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right:  13px;
+    cursor: no-drop;
+}
