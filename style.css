@@ -7,13 +7,13 @@ body {
 
 .logoImg {
   height: 50px;
-  margin: 120px 110px;
+  margin: 80px 110px;
 }
 .container {
   width: 700px;
   height: 700px;
   position: absolute;
-  top: 15%;
+  top: 8%;
   left: 35%;
   background-color: white;
   border: 1px solid rgb(244, 244, 244);
@@ -102,9 +102,10 @@ option {
 }
 .terms{
     position: absolute;
-    bottom: 70px;
+    top: 98%;
+    margin-top: 100px;
     font-size: 20px;
-    left: 45%;
+    left: 47%;
 }
 .terms>span{
     cursor: pointer;
